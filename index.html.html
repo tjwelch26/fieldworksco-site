@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FieldWorks Turf Co.</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #1a5d1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      background-color: #144914;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1553463541-7aa3e0ab9a0d');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 20px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      background-color: #e2e2e2;
+      padding: 15px;
+      margin: 10px 0;
+      border-left: 5px solid #1a5d1a;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      background-color: #1a5d1a;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #144914;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FieldWorks Turf Co.</h1>
+    <p>"We Don’t Just Mow — We Make Fields Play Better"</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Soccer Fields. Sharper. Safer. Game-Ready.</h1>
+    <p>Local soccer turf care by someone who knows the game.</p>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm TJ. I’ve spent years working on a golf course and a lifetime on the soccer field. Now, I’m combining both passions to bring pro-level turf care to local fields, schools, and training spaces. Whether it's a backyard pitch or a full-sized field, I treat each one with care and detail — because I know how much it matters.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Field Mowing & Striping</li>
+      <li>Aeration & Overseeding</li>
+      <li>Game-Ready Paint Striping</li>
+      <li>Weed & Pest Control</li>
+      <li>Drainage Improvements</li>
+      <li>Field Cleanup & Debris Removal</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <p>(Before & after photos coming soon!)</p>
+    <img src="https://images.unsplash.com/photo-1602312655939-f7f70a1228d3" alt="Mowed Soccer Field" />
+    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be" alt="Painted Soccer Field" />
+  </section>
+
+  <section id="contact" class="contact-form">
+    <h2>Contact Me</h2>
+    <p>Interested in a free field evaluation or getting a quote? Reach out below:</p>
+    <form action="https://formspree.io/f/mexample" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Tell me about your field..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FieldWorks Turf Co. | Built with pride and passion</p>
+  </footer>
+</body>
+</html>
